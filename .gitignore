@@ -6,5 +6,4 @@ obj/
 .DS_Store
 *.db
 *.sqlite
-!.gitignore
 
