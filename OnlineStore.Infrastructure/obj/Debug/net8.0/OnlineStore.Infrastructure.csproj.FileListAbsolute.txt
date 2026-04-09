@@ -1,0 +1,17 @@
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Infrastructure.deps.json
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Infrastructure.runtimeconfig.json
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Infrastructure.dll
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Infrastructure.pdb
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Domain.dll
+D:\OnlineStore\OnlineStore.Infrastructure\bin\Debug\net8.0\OnlineStore.Domain.pdb
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.csproj.AssemblyReference.cache
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.AssemblyInfoInputs.cache
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.AssemblyInfo.cs
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.csproj.CoreCompileInputs.cache
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineSt.A30D6540.Up2Date
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.dll
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\refint\OnlineStore.Infrastructure.dll
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.pdb
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\OnlineStore.Infrastructure.genruntimeconfig.cache
+D:\OnlineStore\OnlineStore.Infrastructure\obj\Debug\net8.0\ref\OnlineStore.Infrastructure.dll

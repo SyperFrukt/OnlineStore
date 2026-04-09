@@ -1,0 +1,17 @@
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Services.deps.json
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Services.dll
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Services.pdb
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Domain.dll
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Infrastructure.dll
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Domain.pdb
+D:\OnlineStore\OnlineStore.Services\bin\Debug\net8.0\OnlineStore.Infrastructure.pdb
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.csproj.AssemblyReference.cache
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.AssemblyInfoInputs.cache
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.AssemblyInfo.cs
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.csproj.CoreCompileInputs.cache
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineSt.91A05B9A.Up2Date
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.dll
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\refint\OnlineStore.Services.dll
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\OnlineStore.Services.pdb
+D:\OnlineStore\OnlineStore.Services\obj\Debug\net8.0\ref\OnlineStore.Services.dll

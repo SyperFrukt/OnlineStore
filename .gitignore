@@ -1,9 +1,17 @@
-﻿@
-bin/
-obj/
+﻿# Build outputs (но не исходники!)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# User settings
 *.user
 *.suo
-.DS_Store
-*.db
-*.sqlite
+*.userosscache
 
+# SQLite (опционально - можно закоммитить для демо)
+# *.db
+# *.sqlite
+
+# Docker
+.docker/
