@@ -1,0 +1,13 @@
+﻿**/.git
+**/.vs
+**/bin
+**/obj
+**/node_modules
+**/*.user
+**/*.suo
+**/*.userosscache
+**/packages
+**/.vscode
+**/.idea
+**/*.md
+!README.md

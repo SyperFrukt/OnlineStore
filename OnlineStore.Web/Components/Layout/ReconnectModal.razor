@@ -1,0 +1,29 @@
+﻿@implements IDisposable
+@inject IJSRuntime JS
+
+<div id="blazor-error-ui">
+    An error has occurred. This application may no longer respond until reloaded.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+<div id="components-reconnect-modal" class="components-reconnect-hide">
+    <div id="components-reconnect-failed" class="components-reconnect-panel">
+        <div class="components-reconnect-title">Connection failed</div>
+        <div class="components-reconnect-message">Could not reconnect to the server. <a href="" class="components-reconnect-reload">Reload</a></div>
+    </div>
+    <div id="components-reconnect-rejected" class="components-reconnect-panel">
+        <div class="components-reconnect-title">Connection rejected</div>
+        <div class="components-reconnect-message">The connection to the server was rejected. Please refresh the page to try again.</div>
+    </div>
+    <div id="components-reconnect-lost" class="components-reconnect-panel">
+        <div class="components-reconnect-title">Connection lost</div>
+        <div class="components-reconnect-message">Attempting to reconnect...</div>
+    </div>
+</div>
+
+@code {
+    private DotNetObjectReference<ReconnectModal>? _objRef;
+    protected override void OnInitialized() => _objRef = DotNetObjectReference.Create(this);
+    public void Dispose() => _objRef?.Dispose();
+}
