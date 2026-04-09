@@ -1,0 +1,52 @@
+﻿@page "/"
+@page "/catalog"
+@using OnlineStore.Domain.Entities
+@using OnlineStore.Services.Interfaces
+@inject IProductService ProductService
+
+<PageTitle>Каталог товаров</PageTitle>
+
+<div class="container py-4">
+    <h2 class="mb-4">Каталог товаров</h2>
+
+    @if (_products == null)
+    {
+        <div class="text-center py-5">
+            <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Загрузка...</span></div>
+            <p class="mt-2 text-muted">Загрузка товаров...</p>
+        </div>
+    }
+    else if (!_products.Any())
+    {
+        <div class="alert alert-info">Товары не найдены. Добавьте seed-данные.</div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var product in _products)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text text-muted small">@product.Category?.Name</p>
+                            <p class="card-text flex-grow-1">@product.Description</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="h5 mb-0 text-success">@product.Price.ToString("C")</span>
+                                <span class="badge @(product.Stock > 0 ? "bg-success" : "bg-danger")">
+                                    @(product.Stock > 0 ? $"В наличии: {product.Stock}" : "Нет в наличии")
+                                </span>
+                            </div>
+                            <a href="/checkout" class="btn btn-primary mt-3 text-decoration-none">Оформить заказ</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private IEnumerable<Product>? _products;
+    protected override async Task OnInitializedAsync() => _products = await ProductService.GetAllAsync();
+}
